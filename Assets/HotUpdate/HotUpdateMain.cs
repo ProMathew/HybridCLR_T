@@ -1,4 +1,3 @@
-using HybridCLR;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,5 +15,6 @@ public class HotUpdateMain : MonoBehaviour
         gameObject.AddComponent<CreateByCode>();
 
         Debug.Log("=======看到此条日志代表你成功运行了示例项目的热更新代码=======");
+        Debug.Log("=======看到此条日志代表你成功就就酒=======");
     }
 }

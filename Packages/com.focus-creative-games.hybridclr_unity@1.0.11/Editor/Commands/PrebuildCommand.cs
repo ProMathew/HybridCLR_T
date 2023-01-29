@@ -15,6 +15,7 @@ namespace HybridCLR.Editor.Commands
         [MenuItem("HybridCLR/Generate/All", priority = 200)]
         public static void GenerateAll()
         {
+            //生成Unity版本相关的宏
             Il2CppDefGeneratorCommand.GenerateIl2CppDef();
             // 顺序随意
             ReversePInvokeWrapperGeneratorCommand.GenerateReversePInvokeWrapper();

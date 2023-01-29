@@ -49,7 +49,7 @@ public class LoadDll : MonoBehaviour
         var assets = new List<string>
         {
             "prefabs",
-            "Assembly-CSharp.dll",
+            "HotUpdate.dll",
         }.Concat(AOTMetaAssemblyNames);
 
         foreach (var asset in assets)
@@ -88,7 +88,7 @@ public class LoadDll : MonoBehaviour
         LoadMetadataForAOTAssemblies();
 
 #if !UNITY_EDITOR
-        System.Reflection.Assembly.Load(GetAssetData("Assembly-CSharp.dll"));
+        System.Reflection.Assembly.Load(GetAssetData("HotUpdate.dll"));
 #endif
 
         AssetBundle prefabAb = AssetBundle.LoadFromMemory(GetAssetData("prefabs"));

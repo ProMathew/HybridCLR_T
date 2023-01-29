@@ -1,0 +1,15 @@
+{
+    "name": "HotUpdate",
+    "references": [
+        "GUID:44867461c7558094cab94edbb05214d9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
